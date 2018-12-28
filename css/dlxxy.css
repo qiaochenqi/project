@@ -1,0 +1,117 @@
+@charset "utf-8";
+/* CSS Document */
+/*页脚CSS*/
+.footerBou{ height:123px; background-color:#999;}
+.footerBou_ul li{ display:inline-block; font-size:15px; width:135px; border-right:2px #fff solid;}
+.footerBou_ul li a{ color:#fff;}
+
+/*返回顶部*/
+.backToTop{ display:none; background:url(../../images/result-top-btn.png) no-repeat; width:70px; height:65px; position:fixed; right:50px; bottom:180px; cursor:pointer;}
+/*返回顶部 end*/
+
+.qcq_dy01{
+	width: 1200px;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 25px;
+}
+.qcq_dy01 img{
+	width: 380px;
+    height: 40px;
+}
+.qcq_bj01{
+	width: 100%;
+	margin-top: 25px;
+	padding-bottom: 30px;
+	min-height: 537px;
+    background: url(../images/loginChoice_con.png) no-repeat top center;
+}
+.qcq_bj02{
+	width: 1200px;
+	margin: 0 auto;
+	padding-top: 55px;
+	text-align: center;
+}
+.qcq_bj02 h2{
+	/*width: 778px;*/
+    height: 60px;
+    background: url(../images/logtitleH2.png) no-repeat center;
+}
+.qcq_bj03{
+	margin-top: 30px;
+	width: 778px;
+	overflow: hidden;
+	margin-left: auto;
+    margin-right: auto;
+}
+.bj_left{
+	width: 352px;
+	float: left;
+}
+.bj_left{
+	display: block;
+}
+.bj_left a:nth-child(2){
+	display: block;
+	width: 350px;
+    height: 72px;
+    line-height: 72px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 20px;
+    text-decoration: initial;
+    font-weight: bold;
+    font-family: '微软雅黑',Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    background: url(../images/activityLanred.png)no-repeat;
+}
+.bj_left a:nth-child(3){
+	display: block;
+	width: 350px;
+    height: 72px;
+    line-height: 72px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 20px;
+    text-decoration: initial;
+    font-weight: bold;
+    font-family: '微软雅黑',Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    background: url(../images/activityLanhover.png)no-repeat;
+}
+/**/
+.bj_right{
+	width: 352px;
+	float: right;
+}
+.bj_right{
+	display: block;
+}
+.bj_right a:nth-child(2){
+	display: block;
+	width: 350px;
+    height: 72px;
+    line-height: 72px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 20px;
+    text-decoration: initial;
+    font-weight: bold;
+    font-family: '微软雅黑',Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    background: url(../images/activityHui.png)no-repeat;
+}
+.bj_right a:nth-child(3){
+	display: block;
+	width: 350px;
+    height: 72px;
+    line-height: 72px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 20px;
+    text-decoration: initial;
+    font-weight: bold;
+    font-family: '微软雅黑',Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    background: url(../images/activityLanhover.png)no-repeat;
+}

@@ -1,0 +1,32 @@
+.qcq_xw01{
+	width: 960px;
+	margin: 0 auto;
+	text-align: center;
+}
+.qcq_xw01 h3{
+	padding-bottom: 15px;
+	border-bottom: dashed 1px #949393;
+    color: #005FAF;
+    font-size: 22px;
+}
+.qcq_xw01 p{
+	text-align: left;
+    font-size: 13px;
+    font-family: "宋体";
+    line-height: 170%;
+    color: #6C6C6C;
+    margin-top: 25px;
+    text-indent: 2em;
+}
+.qcq_xw01 p img{
+	margin-top: 35px;
+    max-width: 900px;
+    display: inline-block;
+}
+.qcq_xw01 p:nth-child(6){
+	text-align: center;
+}
+.qcq_xw02{
+	overflow: hidden;
+	margin-top: 30px;
+}

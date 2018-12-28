@@ -1,0 +1,276 @@
+.qcq_nav{
+	width: 1200px;
+	height: 87px;
+	margin: 0 auto;
+	padding-top: 28px;
+	padding-left: 36px;
+	padding-right: 17px;
+	box-sizing: border-box;
+}
+
+
+.qcq_nav01{
+	float: left;
+	margin-right: 36px;
+	overflow: hidden;
+}
+.qcq_nav01 img{
+	float: left;
+	display: block;
+	margin-right: 8px;
+}
+.qcq_nav02{
+	float: left;
+}
+
+.qcq_nav02 p{
+	color: #eb340c;
+	font-size: 16px;
+}
+.qcq_nav03{
+	float: left;
+}
+.qcq_nav03 span{
+	color: #222222;
+	font-size: 22px;
+}
+.qcq_nav04{
+	float: right;
+}
+.qcq_nav04 p:nth-child(1){
+	font-size: 12px;
+	color: #222222;
+}
+.qcq_nav04 p:nth-child(2){
+	font-size: 16px;
+	color: #222222;
+}
+/*-----身体--------*/
+.border_01{
+	width: 1200px;
+	height: 515px;
+	margin: 0 auto;
+	background: url(../img/04.jpg)no-repeat;
+	background-size: 100%;
+	position: relative;
+}
+.qcq_bd01{
+	width: 395px;
+	height: 412px;
+	background: #FFFFFF;
+	position: absolute;
+	right: 67px;
+	top: 52px;
+	padding-top: 40px;
+	padding-left: 26px;
+	padding-right: 26px;
+	box-sizing: border-box;
+}
+.qcq_bd_p{
+	text-align: center;
+}
+.qcq_bd_p span{
+	color: #eb340c;
+	font-size: 16px;
+}
+.qcq_bd_p01{
+	
+	width: 100%;
+	height: 42px;
+	padding-top: 10px;
+	box-sizing: border-box;
+	margin-top: 20px;
+}
+.qcq_bd_p01 span:nth-child(1){
+	float: left;
+	font-size: 16px;
+	font-weight: 800;
+}
+
+.qcq_bd_p01 span:nth-child(2){
+	float: right;
+	font-size: 16px;
+	font-weight: 500;
+	color: #fc4646;
+}
+.qcq_bd_p02{
+	width: 100%;
+	height: 42px;
+	background: url(../img/UserName.png)no-repeat;
+	background-size: 100%;
+	padding: 13px 66px 13px 66px;
+	box-sizing: border-box;
+}
+.qcq_bd_p02 input{
+	width: 100%;
+	height: 100%;
+	border: none;
+	/*opacity: 0;*/
+	background: #f6f6f6;
+	color: #b6b6b6;
+}
+.qcq_bd_p03{
+	width: 100%;
+	height: 42px;
+	background: url(../img/password.png)no-repeat;
+	background-size: 100%;
+	padding: 13px 66px 13px 66px;
+	box-sizing: border-box;
+	/*margin-top: 17px;*/
+}
+.qcq_bd_p03 input{
+	width: 100%;
+	height: 100%;
+	border: none;
+	/*opacity: 0;*/
+	background: #f6f6f6;
+	color: #b6b6b6;
+}
+.qcq_bd_p04{
+	margin-top: 25px;
+	width: 100%;
+	height: 42px;
+	overflow: hidden;
+}
+.qcq_bd_p04 i{
+	display:inline-block;
+	width: 17px;
+	height: 17px;
+	float: left;
+	background: url(../img/label.png);
+	margin:-1px 5px 0 10px;
+	cursor: pointer;
+	vertical-align: middle;
+	/*display: none;*/
+}
+.qcq_mydv i.cur{
+	display:inline-block;
+	width: 17px;
+	height: 17px;
+	float: left;
+	background: url(../img/label_bg.png);
+}
+/*.qcq_bd_p04 span:nth-child(2){
+	display: block;
+	float: left;
+}*/
+.qcq_mydv{
+	float: left;
+}
+.qcq_bd_p04 span:nth-child(2){
+	display: block;
+	float: right;
+}
+.qcq_bd_p05{
+	width: 100%;
+	height: 42px;
+}
+.qcq_bd_p05 a{
+	display: block;
+	text-align: center;
+	padding: 12px;
+	width: 100%;
+	height: 100%;
+	border: none;
+	font-size: 14px;
+	box-sizing: border-box;
+	background: #07bd54;
+	color: #fff;
+	text-decoration:none!important;
+}
+/*-------底部-------*/
+.qcq_fot01{
+	width: 1200px;
+	height: 146px;
+	margin: 0 auto;
+	background: url(../img/01.png)no-repeat;
+	background-size: 100%;
+	margin-top: 43px;
+}
+.qcq_fot02{
+	width: 820px;
+	height: 100%;
+	padding-top: 24px;
+	box-sizing: border-box;
+	margin: 0 auto;
+}
+.qcq_fot03{
+	width: 100%;
+	height: 70px;
+}
+.qcq_fot05{
+	float: left;
+}
+.qcq_fot06{
+	margin-left: 12px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	box-sizing: border-box;
+	overflow: hidden;
+	float: left;
+}
+.qcq_fot06 p{
+	color: #FFFFFF;
+    font-size: 16px;
+}
+.qcq_fot07{
+	float: left;
+	margin-left: 110px;
+	overflow: hidden;
+}
+.qcq_fot07 dl dt{
+	font-size: 18px;
+	color: #fff;
+	margin-bottom: 15px;
+}
+.qcq_fot07 dl dd{
+	color: #fff;
+	margin-top: 5px;
+}
+.qcq_fot07 dl{
+	float: left;
+}
+.qcq_fot07 dl:nth-child(2){
+	margin-left: 100px;
+	float: left;
+}
+.qcq_fot08{
+	float: left;
+	margin-left: 100px;
+	text-align: center;
+}
+.qcq_fot08 ul li{
+	font-size: 18px;
+	color: #fff;
+}
+.qcq_fot09{
+	float: left;
+	margin-left: 18px;
+}
+.qcq_fot10{
+	margin-top: 15px;
+	overflow: hidden;
+	
+	padding: 10px;
+	box-sizing: border-box;
+	width: 100%;
+	text-align: center;
+}
+.qcq_fot10 span{
+	font-size: 12px;
+	color: #fff;
+}
+.p1{
+	height: 20px;
+}
+.p2{
+	color: red;
+	display: none;
+}
+.p3{
+	height: 20px;
+}
+.p4{
+	color: red;
+	display: none;
+}

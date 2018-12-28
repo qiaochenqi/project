@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="css/header.css"/>
+		<link rel="stylesheet" type="text/css" href="css/ddzx.css"/>
+		<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+	</head>
+	<body>
+		<header>
+			<div class="qcq_01">
+				<ul class="w1200 qcq_02">
+					<li><a href="javascript:0;">Hi,ROOT001</a></li>
+					<li>目前积分:<span>7864</span></li>
+					<li><a href="javascript:0;">退出</li>
+					<li><a href="javascript:0;">修改密码</li>
+					<li><a href="javascript:0;">返回活动选择页</a></li>
+				</ul>
+			</div>
+			<!------2----->
+				<div class="qcq_03 w1200">
+					<div class="qcq_03_left">
+						<img src="images/serveDh.png"/>
+					</div>
+					<div class="qcq_03_right">
+						<form action="" method="post" class="qcq_form">
+							<input type="text" name="" id="anniu1" value="输入关键字" />
+							<input type="submit" value=""/>
+						</form>
+						<ul class="qcq_03ulli">
+							<li>热搜关键词：</li>
+							<li><a href="javascript:0">金吉星</a></li>
+							<li><a href="javascript:0">机油</a></li>
+							<li><a href="javascript:0">工作手套</a></li>
+							<li><a href="javascript:0">POLO衫</a></li>
+						</ul>
+					</div>
+				</div>
+				<script type="text/javascript">
+					$("#anniu1").click(function(){
+						$("#anniu1").val("");
+					})
+					$("#anniu1").mouseout(function(){
+//						alert("123")
+						if ($("#anniu1").val() == "") {
+							$("#anniu1").val("输入关键字");
+						} 
+					})
+				</script>
+			<!-----3------>
+			<div class="top_three">
+			<p class="thr_p01">
+				<a href="javascript:0;" class="thr_a01">城频道分类</a>
+			</p>
+			<ul class="ul_nav">
+				<li><a href="javascrip:0;">首页</a></li>
+				<li><a href="javascrip:0;">活动机制</a></li>
+				<li><a href="javascrip:0;">下单流程</a></li>
+				<li><a href="javascrip:0;">质保机制</a></li>
+				<li><a href="javascrip:0;">服务中心</a></li>
+				<li><a href="javascrip:0;">订单中心</a></li>
+			</ul>
+			<ul class="ul_d01">
+				<li><a href="">家居生活：</a>&nbsp;></li>
+				<li><a href="">汽车养护</a>：&nbsp;></li>
+				<li class="last_li"><a href="">我要服务</a>：&nbsp;></li>
+				<div class="div_z">
+					<img src="images/doubleR.png"/>
+					<a href="javascrip:0;">分公司查询登陆</a>
+				</div>
+			</ul>
+			
+		</div>
+			
+			<script type="text/javascript">
+				$(function(){
+					$(".thr_a01").hover(function(){
+						$(".ul_d01").css("display","block");
+					},function(){
+						$(".ul_d01").css("display","none");
+					});
+				})
+			</script>
+		</header>
+		<!--[if IE]>
+			身体
+		<![endif]-->
+		<div class="qcq_st01">
+			<!--版心-->
+			<div class="qcq_st02">
+				<ul class="qcq_st02ulli">
+					<li>您当前的位置: </li>
+					<li><a href="javascript:0">首页</a></li>
+					<li>></li>
+					<li>活动机制</li>
+				</ul>
+				<div class="qcq_st03">
+					<img src="images/conBanner.png"/>
+				</div>
+		<!----------------------->
+				<h3 class="goods_tistH3 mt15 clearfix">
+					<span class="f16 font_fam tc f1 colorfff">产品列表</span>
+				</h3>
+				<!--       内容               -->
+				<div class="borHecon mt10 pb20">
+					<div class="clearfix mt20 ml15">
+						<form action="" class="cc_formOrder fl">
+							<input type="text" name="" id="" value="输入商品名称或订单号进行搜索" class="cc_formOrderinp1 f1 background_Transparent bor_none pl5 pr5 font_st"/>
+							<input type="submit" name="" id="" value="" title="订单搜索" class="cc_formOrderinp2 fr curaor_pointer background_Transparent bor_none"/>
+						</form>
+						<form class="cc_formDeal fl ml35">
+                    <label class="font_fam fl">成交时间：</label>
+                    <input name="control_date" class="queInp f14 font_fam fl" type="text" id="control_date" size="10" maxlength="10" onClick="new Calendar().show(this);" readonly>
+                    <label class="font_fam ml10 mr10 fl">到</label>
+                    <input name="control_date2" class="queInp f14 font_fam fl" type="text" id="control_date2" size="10" maxlength="10" onClick="new Calendar().show(this);" readonly>
+                    <input class="fr butccQuery ml25 curaor_pointer bor_none" type="submit" value="">
+                </form>
+            </div>
+			<ul class="cc_xxclinchUl clearfix mt20">
+				<li class="font_fam f18 colorfff cc_xxclinchUla tc">商品名称</li>
+                <li class="font_fam f18 colorfff cc_xxclinchUlb tc">积分</li>
+                <li class="font_fam f18 colorfff cc_xxclinchUlc tc">数量</li>
+                <li class="font_fam f18 colorfff cc_xxclinchUld tc">小计</li>
+                <li class="font_fam f18 colorfff cc_xxclinchUle tc">规格备注</li>
+                <li class="font_fam f18 colorfff cc_xxclinchUlf tc">物流信息</li>
+			</ul>
+            <table class="cartTable mt15">
+            	<td colspan="6" class="coreBble_Fitd">
+                    <span class="f14 font_st pl15">2015-03-27&nbsp;&nbsp;&nbsp;&nbsp;订单号：025625562566962332</span>
+                    <a class="coreBble_Fitd_A fr f16 font_fam colorfff mr10" href="#">去支付</a>
+                </td>
+                <tr>
+                    <td class="cc_xxclinchUlas f14 font_fam pt15 pb15 clearfix">
+                        <a class="Aimg90 fl pl10" href="#"><img src="images/products3.png" width="90" height="90"></a>
+                        <span class="descriPtion_span fl lineH160 font_fam f14 ml20 color666">泊尔双胆正品</span>
+                    </td>
+                    <td class="cc_xxclinchUlbs f14 font_fam tc">52.00</td>
+                    <td class="cc_xxclinchUlcs f14 font_fam tc">1</td>
+                    <td class="cc_xxclinchUlds tc f14 font_fam"><spa>52.00</span> 积分</td>
+                    <td class="cc_xxclinchUles f14 font_fam tc">5L白色</td>
+                    <td class="cc_xxclinchUlfs tc"><span class="f14 font_fam">待发货,未支付 </span></th>
+                </tr>
+                <tr>
+                    <td class="cc_xxclinchUlas f14 font_fam pt15 pb15 clearfix">
+                        <a class="Aimg90 fl pl10" href="#"><img src="images/products4.png" width="90" height="90"></a>
+                        <span class="descriPtion_span fl lineH160 font_fam f14 ml20 color666">便携式音箱SBM100 三种色系丰富视觉选择 wOOx扬声器携式音箱SBM100 便携式音箱SBM100 三种色系丰富视觉选择 wOOx扬声器携式音箱SBM100 便携式音箱SBM100 三种色系丰富视觉选择 wOOx扬声器携式音箱SBM100 </span>
+                    </td>
+                    <td class="cc_xxclinchUlbs f14 font_fam tc">1299.00</td>
+                    <td class="cc_xxclinchUlcs f14 font_fam tc">1</td>
+                    <td class="cc_xxclinchUlds tc f14 font_fam"><spa>1299.00</span> 积分</td>
+                    <td class="cc_xxclinchUles f14 font_fam tc">直径28cm 、黑色</td>
+                    <td class="cc_xxclinchUlfs tc"><span class="f14 font_fam">待发货,未支付 </span></th>
+                </tr>
+            </table>
+            <table class="cartTable mt15">
+            	<td colspan="6" class="coreBble_Fitd">
+                    <span class="f14 font_st pl15">2015-03-27&nbsp;&nbsp;&nbsp;&nbsp;订单号：025625562566962332</span>
+                </td>
+                <tr>
+                    <td class="cc_xxclinchUlas f14 font_fam pt15 pb15 clearfix">
+                        <a class="Aimg90 fl pl10" href="#"><img src="images/products7.png" width="90" height="90"></a>
+                        <span class="descriPtion_span fl lineH160 font_fam f14 ml20 color666">便携式音箱SBM100 三种色系丰富视觉选择 wOOx扬声器携式音箱SBM100 </span>
+                    </td>
+                    <td class="cc_xxclinchUlbs f14 font_fam tc">98.00</td>
+                    <td class="cc_xxclinchUlcs f14 font_fam tc">1</td>
+                    <td class="cc_xxclinchUlds tc f14 font_fam"><spa>98.00</span> 积分</td>
+                    <td class="cc_xxclinchUles f14 font_fam tc">5L白色</td>
+                    <td class="cc_xxclinchUlfs tc"><span class="f14 font_fam">已发货</span></th>
+                </tr>
+            </table>            
+        </div>
+
+		<!----------------------->
+		<div class="footer w100">
+    	<div class="w1200 margin_auto tc mt30"><img src="images/foorterImg.jpg" width="850" height="135"></div>
+        <div class="footerBou mt30 tc">
+        	<ul class="footerBou_ul clearfix pt35 w1200 margin_auto font_fam">
+            	<li><a href="#">订单帮助</a></li>
+                <li><a href="#">礼品售后</a></li>
+                <li><a href="#">投诉说明</a></li>
+                <li><a href="#">法律声明</a></li>
+                <li style="border:0 none;"><a href="#">友情链接</a></li>                                                                                      
+            </ul>
+            <p class="colorfff mt25">版权所有&nbsp;&nbsp;沪ICP备12038387号</p>
+        </div>
+    </div>
+    <!------------------>
+	</body>
+</html>
