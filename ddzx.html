@@ -171,7 +171,8 @@
                 </tr>
             </table>            
         </div>
-
+        </div>
+</div>
 		<!----------------------->
 		<div class="footer w100">
     	<div class="w1200 margin_auto tc mt30"><img src="images/foorterImg.jpg" width="850" height="135"></div>
@@ -186,6 +187,27 @@
             <p class="colorfff mt25">版权所有&nbsp;&nbsp;沪ICP备12038387号</p>
         </div>
     </div>
+    <div id="gd_f"></div>
     <!------------------>
 	</body>
 </html>
+<script type="text/javascript">
+	$(function(){
+	//返回顶部JQ  淡入淡出  返回顶部
+		$(window).scroll(function(event){
+			var h =$(window).scrollTop();
+			//console.log(h);
+			if(h>500){
+				$("#gd_f").fadeIn(100);
+			}else{
+				$("#gd_f").fadeOut(100);
+			}
+		});
+		$("#gd_f").click(function(){
+			$('body,html').animate({
+				scrollTop:0
+			},1000);
+		})
+		
+	});
+</script>

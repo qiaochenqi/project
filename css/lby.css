@@ -1,0 +1,17 @@
+.order01{
+	width: 1200px;
+	margin-top: 15px;
+	text-align: center;
+}
+.order02 ul li{
+	float: left;
+	margin-right: 7px;
+}
+.lbnav01{
+	border: solid 1px #ccc;
+    height: 50px;
+    background-color: #E0DEDA;
+}
+.lbnav01 ul li{
+	float: left;
+}
