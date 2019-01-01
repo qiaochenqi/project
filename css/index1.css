@@ -1,0 +1,66 @@
+.order01{
+	width: 1200px;
+	margin-top: 15px;
+	text-align: center;
+}
+.order02 ul li{
+	float: left;
+	margin-right: 7px;
+}
+.order04 p span{
+	width: 23px;
+    height: 23px;
+    background: url(../images/blBg.png) no-repeat -442px -144px;
+    top: 4px;
+    right: 5px;
+}
+.order05 span{
+	height: 34px;
+    line-height: 34px;
+    padding: 0 25px;
+    background-color: #005BAA;
+    font-weight: normal;
+}
+.ation_test{
+	text-align: left;
+}
+.ation_test table{
+	border: solid 1px #BBB4B4;
+	border-collapse: collapse;
+    border-spacing: 0;
+    display: table;
+}
+.ation_test table tr{
+	display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+.ation_test table th{
+	font-weight: bold;
+    height: 33px;
+    background-color: #999;
+}
+.cartTable_AS_a{
+	width: 285px;
+}
+.cartTable_AS_b{
+	width: 350px;
+}
+.cartTable_AS_c{
+	width: 180px;
+}
+.cartTable_AS_d{
+	width: 155px;
+}
+.cartTable_AS_e{
+	width: 195px;
+}
+.order06{
+	background-color: #DEDFDF;
+    padding-right: 70px;
+    margin-left: -23px;
+}
+.order07{
+	border-bottom: solid 1px #B4B4B4;
+    width: 267px;
+}
